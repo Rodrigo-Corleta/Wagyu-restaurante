@@ -640,9 +640,11 @@ h4{
     .smenu__titulo h2{
         font-size:large;
     }
+    .smenu__plato-txt{
+        box-shadow: 0 0 5px #000000;
+    }
     .smenu__plato-txt h3{
         font-size: medium;
-        box-shadow: 0 0 5px #000000;
     }
     .smenu__plato-txt p{
         font-size: smaller;
