@@ -1,0 +1,19 @@
+.encabezado{
+    background-color: #000000;
+    top: 0;
+    height: 6em;
+    z-index: 0;
+    .navegacion__pagina{
+        background: {
+            image: linear-gradient(#a89211,#a89211);
+            repeat: no-repeat;
+            size: 0% 100%;
+            position-x: right;
+        }
+        transition: background-size 500ms;
+        &:hover{
+            background-size: 100% 100%;
+            background-position-x: left;
+        }
+    }
+}

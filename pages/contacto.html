@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <meta name="description" content="Queremos saber que pensas. Teléfono. Email. Nombre y apellido">
+    <meta name="keywords" content="Formulario, ubicación">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header>
+    <header class="encabezado">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top">
             <div class="container-fluid align-items-center justify-content-end">
                 <a class="navbar-brand me-auto" href="../index.html">
@@ -76,7 +78,7 @@
     </header>
     <main>
         <section class="encabezado-contacto">
-            <article>
+            <article class="contacto-1">
                 <img src="../assets/img/contacto/contacto.webp" alt="contacto" class="encabezado-contacto__img">
             </article>
             <aside class="contacto">
@@ -84,7 +86,7 @@
                     <h1>Queremos saber que pensas</h1>
                 </div>
                 <div class="formulario">
-                    <form action="" class="contacto__fortmulario">
+                    <form action="" class="contacto__formulario">
                         <input type="text" name="nombre-apellido" placeholder="Nombre y Apellido" class="contacto__formulario__input--chico">
                         <input type="tel" name="telefono" placeholder="Tel +54" class="contacto__formulario__input--chico">
                         <input type="email" name="correo-electronico" placeholder="nombre@email.com" class="contacto__formulario__input">
@@ -94,7 +96,7 @@
                             <option value="consulta">Consulta</option>
                         </select>
                         <textarea name="comentarios" cols="30" rows="10" placeholder="Su mensaje" class="contacto__formulario__input"></textarea>
-                        <input type="submit" value="Enviar" class="contacto__formulario__input--boton">
+                        <button class="btn btn-outline-dark pt-1 contacto__formulario__input--boton" type="submit">Enviar</button>
                     </form>
                 </div>
             </aside>
