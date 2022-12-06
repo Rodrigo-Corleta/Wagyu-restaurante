@@ -35,6 +35,15 @@ h4{
     font-weight: 500 bold;
 }
 
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: #808080;
+    text-decoration: none;
+}
+
 /* barra de navegacion */
 
 .encabezado{
@@ -104,6 +113,10 @@ h4{
     width: 50%;
     height: auto;
     padding: 0 1em;
+}
+
+.vm-inicio{
+    margin-left: 1em;
 }
 
 .inicio__img img{
@@ -303,7 +316,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: .5em;
+    margin: .4em;
 }
 
 .nuestra-filosofia__titulo{
@@ -316,6 +329,7 @@ h4{
 
 .nuestra-filosofia__txt{
     width: 10em;
+    hyphens: auto;
 }
 
 .nuestro-equipo-t{
@@ -360,8 +374,11 @@ h4{
     }
 }
 
-@media (max-width: 767px){
-    
+@media (max-width: 479px){
+    .nuestro-equipo-t{
+        display: flex;
+        flex-direction: column;
+    }
 }
 /* Sección eventos */
 
@@ -557,10 +574,9 @@ h4{
 
 .contacto__mapa{
     margin: auto;
-    padding: 2em 0;
+    padding: 2em;
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
 @media (max-width: 767px) {
